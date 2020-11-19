@@ -1,4 +1,4 @@
-Text# NYU center for datascience python 1 exercise
+# NYU center for datascience python 1 exercise
 
 A data science exercise i made in Python3. 
 
