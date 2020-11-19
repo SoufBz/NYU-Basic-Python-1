@@ -5,8 +5,6 @@ data = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],
 		['C1', 122], ['C2', 87], ['C3', 36], ['C4', 3],
 		['D1', 0], ['D2', 5], ['D3', 55], ['D4', 62],
 		['D5', 98], ['D6', 32]]
-# print(type(data))
-
 blanco = ""
 
 
@@ -40,23 +38,16 @@ def question5():
     return blanco
 
 def question6():
-    # for site in data if site[0][0] == "C":
-    #     print(site)
     total_birds = sum([site[1] for site in data if site[0][0] == "C"])
     print(f"Question 6: The total number of birds counted accross sites C are {total_birds}")
-    for site in data:
-        print(site[0])
-        if site[0][0] == "A":
-            print(site)
-    # print(test)
     return blanco
 
 def runcode():
-    # print (question1())
-    # print (question2())
-    # print (question3())
-    # print (question4())
-    # print(question5())
+    print (question1())
+    print (question2())
+    print (question3())
+    print (question4())
+    print(question5())
     print(question6())
     return blanco
 
